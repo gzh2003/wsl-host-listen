@@ -1,0 +1,53 @@
+{
+  "name": "wsl-host-connect",
+  "version": "1.0.0",
+  "author": "gzh2003",
+  "license": "MIT",
+  "description": "A tool to access wsl host from LAN.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gzh2003/wsl-host-connect"
+  },
+  "files": [
+    "src/**/*.js",
+    "!**/*.test.js"
+  ],
+  "main": "src/index.js",
+  "bin": {
+    "wsl-host-connect": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "format": "prettier --write .",
+    "release": "np --no-tests"
+  },
+  "keywords": [
+    "wsl2",
+    "wsl",
+    "network",
+    "connection",
+    "host",
+    "patch"
+  ],
+  "dependencies": {
+    "@types/adm-zip": "^0.5.5",
+    "@types/qrcode-terminal": "^0.12.2",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0",
+    "ora": "^8.1.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.11.0",
+    "np": "^10.0.7",
+    "prettier": "3.3.3"
+  }
+}
