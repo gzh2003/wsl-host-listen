@@ -7,7 +7,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gzh2003/wsl-host-connect"
+    "url": "https://github.com/gzh2003/wsl-host-listen"
   },
   "files": [
     "src/**/*.js",
@@ -15,7 +15,7 @@
   ],
   "main": "src/index.js",
   "bin": {
-    "wsl-host-connect": "src/index.js"
+    "wsl-host-listen": "src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",

@@ -1,6 +1,8 @@
 # wsl-host-listen
 
-![version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
+![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
 
 ## Description
 
@@ -22,8 +24,8 @@ npx wsl-host-listen
 
 ## Recommendations
 
-This utility is intended as a quick and easy workaround, but it's important to consider more
-permanent solutions.
+This tool is intended as a quick and easy workaround, but it's important to consider more permanent
+solutions.
 
 If your setup allows for it consider using `netsh` to add a port proxy:
 
@@ -33,6 +35,5 @@ netsh interface portproxy add v4tov4 listenport=<yourPortToForward> listenaddres
 
 For more information, check out the
 [Microsoft documentation](https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-a-wsl-2-distribution-from-your-local-area-network-lan).
-
 Alternatively you can set up
 [mirrored mode networking](https://learn.microsoft.com/en-us/windows/wsl/networking#mirrored-mode-networking).
