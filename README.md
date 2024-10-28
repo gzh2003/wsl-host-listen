@@ -14,10 +14,14 @@ This tool streamlines the installation process of
 
 ## Usage
 
-To use `wsl-host-listen`, you can execute it via npm:
+To use `wsl-host-listen`, you can execute it via:
 
 ```sh
 npx wsl-host-listen
+# or
+pnpm exec wsl-host-listen
+# or
+yarn exec wsl-host-listen
 ```
 
 **Note:** This command needs to be re-run for each new WSL instance.
