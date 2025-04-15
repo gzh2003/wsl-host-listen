@@ -28,7 +28,7 @@ yarn exec wsl-host-listen
 
 ## Recommendations
 
-This tool is intended as a quick and easy workaround, but it's important to consider more permanent
+This tool is intended as a quick and easy workaround, but there are more permanent
 solutions.
 
 If your setup allows for it consider using `netsh` to add a port proxy:
